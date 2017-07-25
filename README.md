@@ -15,8 +15,6 @@ berikut config Dockerfile yang digunakan:
  1. menggunakan images *httpd:2.4*
  2. COPY: untuk memindahkan file local public_html ke dalam docker
  
- ![Local Preview](https://github.com/rochmadadhiyunianto/responsitccl/blob/master/responsi.png?raw=true)
-
 
 **Perintah Build Image:**   *docker build -t apache2 .*
 memberikan nama images: apache2
