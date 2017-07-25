@@ -2,7 +2,7 @@
 by *Rochmad Adhi Y NIM 165410167*
 
 **Aplikasi yang dibuat:** Halaman profile menggunakan html seperti gambar berikut uji coba diserver local:
-![Local Preview](.png)
+![Local Preview](https://github.com/rochmadadhiyunianto/responsitccl/blob/master/responsi.png?raw=true)
 
 **Dockerfile:**
 berikut config Dockerfile yang digunakan:
@@ -14,16 +14,19 @@ berikut config Dockerfile yang digunakan:
 
  1. menggunakan images *httpd:2.4*
  2. COPY: untuk memindahkan file local public_html ke dalam docker
+ 
+ ![Local Preview](https://github.com/rochmadadhiyunianto/responsitccl/blob/master/responsi.png?raw=true)
+
 
 **Perintah Build Image:**   *docker build -t apache2 .*
 memberikan nama images: apache2
-
 
 
 **Perintah menjalankannya:** *sudo docker run  -p 8080:8080 --name apache2-1  apache2*
 
 
 **Hasil jika dijalankan:**
+![Local Preview](https://github.com/rochmadadhiyunianto/responsitccl/blob/master/terminal.png?raw=true)
 
 
 pada output ini url/ip *http://172.17.0.2/* merupakan ip docker-machine yang digunakan sebagai host Docker
